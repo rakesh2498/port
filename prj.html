@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+       
+        * {
+             box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+        }
+
+/* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        </style>
+
+</head>
+<body>
+
+    <div class="container">
+    
+        <ul class="nav nav-tabs " role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#contactme">Contact me</a>
+          </li>
+        </ul>
+      
+        <!-- Tab panes -->
+        <div class="tab-content">
+          
+          <div id="home" class="container tab-pane active"><br>
+            <h1>About me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          
+        <div id="skills" class="container tab-pane fade" style="background-color:  rgb(63, 83, 77); margin-top: 20px;"><br>
+
+            <h1 style="color: white">Skills :</h1><br><br>
+            
+            <div class="card-deck" style="height: 350px;">
+                <div class="card" style="width: 150px; height: 300px; margin-top: 20px; background-color: lightslategrey;">
+                    <img src="https://hackr.io/tutorials/learn-html-5/logo/logo-html-5?ver=1587977020" alt="html" style="width: 150px; height: 150px; margin-top: 30px; margin-left: 40px;"><br>
+                    <h3 style="text-align: center; color: whitesmoke;">Html5</h3>
+                </div>
+                <div class="card" style="width: 150px; height: 300px; margin-top: 20px; background-color: lightslategrey;">
+                    <img src="https://wallpapercave.com/wp/wp2742472.jpg" alt="css3" style="width: 150px; height: 150px; margin-top: 30px; margin-left: 40px;" ><br>
+                    <h3 style="text-align: center; color: white;">Css3</h3>
+                </div>
+                <div class="card" style="width: 150px; height: 300px; margin-top: 20px; background-color: lightslategrey;">
+                    <img src="https://jquery-plugins.net/image/plugin/bootstrap-4-the-most-popular-html-css-and-js-library.jpg" alt="bootstrap" style="width: 150px; height: 130px; margin-top: 30px; margin-left: 40px;"><br>
+                    <h3 style="text-align: center; color: white;">Bootstrap4</h3>
+                </div>
+                <div class="card" style="width: 150px; height: 300px; margin-top: 20px; background-color: lightslategrey;"><br><br>
+                    <img src="https://blog.logrocket.com/wp-content/uploads/2020/05/javascript-chart-libraries.jpeg" alt="js" style="width: 150px; height: 150px; margin-top: 10px; margin-left: 40px;">
+                    <h3 style="text-align: center; color: white;">Javascript</h3>
+                </div>  
+            </div>
+           
+        </div>
+         
+         
+         
+         
+        <div id="projects" class="container tab-pane fade" style="background-color:  rgb(69, 115, 104); margin-top: 20px;"><br>
+            <h3 style="color: white;">Projects I have done :</h3><br><br>
+            <div class="card-deck" style="background-color: lightslategrey; height: 480px; margin-top: 20px;" >
+                <div class="card" style="width: 250px; height: 380px; margin-top: 40px;">
+                    <img src="https://www.posist.com/restaurant-times/wp-content/uploads/2016/08/ice-cream-410330_1920-800x509-1.jpg" alt="ice" style="height: 200px;"><br>
+                    <p style="padding-left: 10px;">Web design</p>
+                    <h5 style="color: lightslategray; padding-left: 10px;">Cool Ice Creams</h5>
+                    <p style="color: lightslategrey; padding-left: 10px;">Cool Ice Creams is a simple static website.</p>
+                    <p style="color: green; padding-left: 10px;">Know more --></p>
+                </div>
+                <div class="card" style="width: 250px; height: 380px; margin-top: 40px;">
+                    <img src="https://images2.minutemediacdn.com/image/upload/c_crop,h_998,w_1500,x_0,y_1/v1555006794/shape/mentalfloss/istock-522735736.jpg?itok=X09xkrkm" alt="cho" style="height: 200px;"><br>
+                    <p style="padding-left: 10px;">Web design</p>
+                    <h5 style="color: lightslategray; padding-left: 10px;">Famous Chocolates</h5>
+                    <p style="color: lightslategrey; padding-left: 10px;">Famous chocolates is the best chocolates ordering page.</p>
+                    <p style="color: green; padding-left: 10px;">Know more --></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="services" class="container tab-pane fade" style="background-color: lightblue; margin-top: 20px;"><br>
+            <h6>Services</h6>
+            <h1>What I do</h1>
+            <div class="card-deck" style="background-color: lightgray; height: 450px;">
+                <div class="card" style="width: 150px; height: 350px; margin-top: 40px;">
+                    <img src="https://www.freepnglogos.com/uploads/logo-website-png/logo-website-coopera-web-design-12.png" alt="logo" style="width: 100px; height: 100px;"><br>
+                    <h5 style="color: rgb(122, 168, 223); padding-left: 10px;">Static Websites</h5>
+                    <p style="color: slategrey; padding-left: 10px;">A static website contains web pages with fixed content. Each web page is developed using HTML and CSS which displays the same information to every user.</p>
+                </div>
+
+                <div class="card" style="width: 150px; height: 350px; margin-top: 40px;">
+                    <img src="https://xd.adobe.com/ideas/wp-content/uploads/2020/07/how_to_prototype_your_vr_project_without_code_.png" alt="res" style="width: 100px; height: 100px;"><br>
+                    <h5 style="color: rgb(122, 168, 223); padding-left: 10px;">Responsive web design</h5>
+                    <p style="color: slategrey; padding-left: 10px;">Responsive web design is a web development approach that creates dynamic changes to the appearance of a website, depending on the screen size and orientation of the device being used to view it.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contactme" class="container tab-pane fade" style="margin-top: 20px; height: 400px; background-color: lightblue"><br>
+            <h1 style="color: mediumpurple;">Contact me :</h1>
+            <div style="background-color: lightgoldenrodyellow; height: 300px; padding-top: 30px;">
+            <h5 style="color: rgb(69, 149, 230); font-weight: bold; font-style: italic; margin-left: 20px;">Name : Rakesh Reddy</h5><br>
+            <h5 style="color: rgb(69, 149, 230); font-weight: bold; font-style: italic; margin-left: 20px;">Phone No : 8247297397</h5><br>
+            <h5 style="color: rgb(69, 149, 230); font-weight: bold; font-style: italic; margin-left: 20px;">E-mail : rakeshdanda123@gmail.com</h5><br>
+            <h5 style="color: rgb(69, 149, 230); font-weight: bold; font-style: italic; margin-left: 20px;">Address : Hyderabad-Telangana-India.</h5>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+      
+    
+    
+
+    
+
+    
+
+      
+</body>
+</html>
